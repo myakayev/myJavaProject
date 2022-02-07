@@ -6,11 +6,12 @@ public class ThreeStars {
     }
 
     public static void elementShift (int x[], int n) {
-        for (int i = 0; i < x.length; i ++){
-            if (n > 0){
-                int k = x.length - 1;
-                for (int j = ; j < )
+        if (n > 0){
+            int k = x.length - 1;
+            for (int j = 0; j < k; j++){
+                k++;
             }
         }
+
     }
 }
